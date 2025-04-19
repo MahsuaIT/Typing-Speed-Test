@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Typing Speed Test</h1>
+        
+        <div class="settings">
+            <div class="difficulty">
+                <button class="difficulty-btn active" data-difficulty="medium">Medium</button>
+                <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+                <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+            </div>
+            
+            <div class="toggles">
+                <label class="toggle-switch">
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <span class="slider"></span>
+                    Dark Mode
+                </label>
+                
+                <label class="toggle-switch">
+                    <input type="checkbox" id="sound-toggle" checked>
+                    <span class="slider"></span>
+                    Sound Effects
+                </label>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <span id="wpm">0</span>
+                <small>WPM</small>
+            </div>
+            <div class="stat">
+                <span id="accuracy">0</span>
+                <small>Accuracy</small>
+            </div>
+            <div class="stat">
+                <span id="time">60</span>
+                <small>Seconds</small>
+            </div>
+        </div>
+        
+        <div class="text-display" id="text-display">
+            Select difficulty and click START. You have 60 seconds.<br>
+            <span class="highlight">Green</span> = correct, <span class="incorrect">red</span> = mistakes, <span class="current">highlight</span> = current position.
+        </div>
+        
+        <textarea id="text-input" placeholder="Click start and begin typing here..." disabled></textarea>
+        
+        <div class="controls">
+            <button id="start-btn">Start Test</button>
+            <button id="reset-btn" disabled>Reset</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -30,8 +30,11 @@ cd typing-speed-test
 ```
 
 ## File Structure
+
+```bash
 typing-speed-test/
 ├── index.html
 ├── styles.css
 ├── script.js
 └── README.md
+```

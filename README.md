@@ -1,6 +1,6 @@
 # Typing-Speed-Test
 
-![Typing Speed Test Demo](demo.gif)
+![https://mahsuait.github.io/Typing-Speed-Test/](demo.gif)
 
 A responsive web application to test and improve your typing speed with real-time statistics and visual feedback.
 

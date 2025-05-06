@@ -1,6 +1,9 @@
 # Typing-Speed-Test
 
-![https://mahsuait.github.io/Typing-Speed-Test/](demo.gif)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-🌐_Brightgreen?style=for-the-badge)]([https://mahsuait.github.io/Modern-Calculator/](https://mahsuait.github.io/Typing-Speed-Test/))
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+![Calculator Screenshot](screenshot.png) <!-- Add your screenshot here -->
 
 A responsive web application to test and improve your typing speed with real-time statistics and visual feedback.
 
